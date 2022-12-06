@@ -7,6 +7,8 @@ public class Car extends Applet{
 
     public void paint(Graphics g){
         Details.drawSky(g);
+        Details.drawGround(g);
+        Details.drawSun(g);
 
 
         Wheels.drawFrontWheel(g);

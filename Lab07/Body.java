@@ -16,7 +16,7 @@ public class Body {
     }
 
     public static void drawFront(Graphics g){
-        g.setColor(Color.DARK_GRAY);
+        g.setColor(Color.darkGray);
         Polygon penta = new Polygon();
         penta.addPoint(400,150);
         penta.addPoint(200,175);
@@ -29,7 +29,6 @@ public class Body {
     }
 
     public static void drawBack(Graphics g){
-        g.setColor(Color.DARK_GRAY);
         Polygon penta = new Polygon();
         penta.addPoint(600,175);
         penta.addPoint(900,175);
